@@ -1,1 +1,56 @@
 /* TODO: design your profile with CSS */
+h1 {
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: rgb(88, 142, 88);
+}
+
+i {
+  color: rgb(88, 142, 88);
+  font-size: 30px;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0;
+  /* # 20px top & bottom, 0px left & right. */
+}
+
+.img-circle {
+  width: 100px;
+  /* # shouldn't give it a hight, because the height shoul adapt automatically. */
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+/* # selecting every 'li' element inside,  */
+
+.btn-blue {
+  background-color: lightblue;
+  color: white;
+  text-decoration: none;
+  /* take away the underline */
+  padding: 8px; 16px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(88, 142, 88)
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
